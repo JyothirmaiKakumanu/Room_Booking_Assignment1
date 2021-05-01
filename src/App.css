@@ -1,38 +1,48 @@
-.App {
-  text-align: center;
+
+.heading{
+  font-size: 25px;
+  margin-top: 10%;
+  margin-left: 30%;
+  color: rgb(14, 3, 173);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.roomDetails{
+  width: 40%;
+  margin-left: 30%; 
+  border: 0px solid rgba(0, 0, 0, 0);
+  color: rgb(14, 3, 173);
+}
+.list-row{
+border: 1px solid;
+padding: 5%;
+text-transform: uppercase;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.item{
+  padding-left: 2%;
+  font-weight: 600;
+  /* color: rgb(14, 3, 173); */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  .roomCount {
+  float: inline-start;
+  /* display: inline; */
+  margin-left:50%;
+} 
+.number{
+  display: inline;
+  font-size: 20px;
+  padding:4%;
+  color: rgb(14, 3, 173);
 }
 
-.App-link {
-  color: #61dafb;
+button{
+  border: none;
+  background-color: white;
+  color: rgb(14, 3, 173);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.plus{
+color:rgb(255, 72, 51);
 }
+
